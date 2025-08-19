@@ -1,0 +1,16 @@
+## Interface: 11200
+## Title: HungryPetNotification
+## Notes: Displays a notification if pet is not happy
+## Author: MadMudkip
+## Version: 0.1
+## Icon: Interface\Icons\INV_Misc_Food_50
+## SavedVariables: HungryPetNotificationDB
+
+assets\localization\enUS.lua
+assets\localization\deDE.lua
+
+core\init.lua
+core\notification-frame.lua
+core\utils.lua
+core\events.lua
+core\commands.lua
