@@ -17,3 +17,9 @@ There is also the command
 /hpn refresh
 ```
 which forces an update of the notification. I used it during development, but shouldn't be necessary at all.
+
+## Install
+
+Download as ZIP
+https://github.com/MadMudkip268/HungryPetNotification/archive/refs/heads/main.zip
+and install just like other addons.
