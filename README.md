@@ -20,6 +20,10 @@ which forces an update of the notification. I used it during development, but sh
 
 ## Install
 
-Download as ZIP
-https://github.com/MadMudkip268/HungryPetNotification/archive/refs/heads/main.zip
-and install just like other addons.
+Download the ZIP here: https://github.com/MadMudkip268/HungryPetNotification/archive/refs/heads/main.zip
+Rename the unzipped folder from ```HungryPetNotification-main``` to ```HungryPetNotification```
+
+Copy it into your Turtle WoW folder just like other addons:
+```
+turtle-wow\Interface\AddOns\HungryPetNotification
+```
