@@ -12,7 +12,11 @@ HungryPetNotification.updateNotification = function()
     local happiness = GetPetHappiness and GetPetHappiness() or 3
     if happiness and happiness < 3 then
         local petName = UnitName("pet") or texts["PET_FALLBACK_NAME"]
-        nf.textObject:SetText(string.format(texts["PET_HAPPINESS_1"], petName))        
+        local displayText = texts["PET_HAPPINESS_1"]
+        if happiness == 2 then
+            displayText = texts["PET_HAPPINESS_2"]
+        end
+        nf.textObject:SetText(string.format(displayText, petName))
         nf.frameObject:Show()
     else
         nf.frameObject:Hide()

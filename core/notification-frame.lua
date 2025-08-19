@@ -36,7 +36,7 @@ HungryPetNotification.notificationFrame.textObject = notificationFrame:CreateFon
 local text = HungryPetNotification.notificationFrame.textObject
 text:SetPoint("CENTER", notificationFrame, "CENTER", 0, 0)
 local petName = UnitName("pet") or texts["PET_FALLBACK_NAME"]
-text:SetText(string.format(texts["PET_HAPPINESS_1"], petName))
+text:SetText(string.format(texts["PET_HAPPINESS_2"], petName))
 
 -- Standard: versteckt, bis Event sagt "zeigen"
 notificationFrame:Hide()

@@ -2,8 +2,8 @@ if GetLocale() ~= "deDE" then return end
 
 local texts = {}
 texts["PET_FALLBACK_NAME"] = "Dein Begleiter"
-texts["PET_HAPPINESS_0"] = "%s verhungert!"
-texts["PET_HAPPINESS_1"] = "%s ist hungrig!"
+texts["PET_HAPPINESS_1"] = "%s verhungert!"
+texts["PET_HAPPINESS_2"] = "%s ist hungrig!"
 texts["HPN_INIT"] = "HungryPetNotification initialisiert."
 texts["HPN_HELP"] = "HungryPetNotification: /hpn lock | unlock | refresh | reset"
 texts["FRAME_UNLOCKED"] = "HungryPetNotification entsperrt."

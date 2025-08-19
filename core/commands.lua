@@ -22,7 +22,7 @@ SlashCmdList["HPN"] = function(msg)
         frame.isLocked = HungryPetNotificationDB.notification.isLocked
         frame:Show()
         local petName = UnitName("pet") or texts["PET_FALLBACK_NAME"]
-        text:SetText(string.format(texts["PET_HAPPINESS_1"], petName))
+        text:SetText(string.format(texts["PET_HAPPINESS_2"], petName))
     elseif msg == "refresh" then
         HungryPetNotification.updateNotification()
     elseif msg == "reset" then
